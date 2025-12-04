@@ -8,16 +8,14 @@
 
 ก่อนเริ่มทำงาน **กรุณา[เปิด issue ใหม่](https://github.com/kerlos/battle-of-talinchan-cards/issues/new)** พร้อมกับ tag ที่เหมาะสม:
 
-- `card-data` - สำหรับการเพิ่มหรืออัปเดตข้อมูลการ์ด
 - `new-card` - สำหรับการ์ดใหม่ที่ยังไม่มีในระบบ
 - `update-card` - สำหรับการแก้ไขข้อมูลการ์ดที่มีอยู่แล้ว
 - `bug-fix` - สำหรับการแก้ไขข้อผิดพลาดในข้อมูล
-- `new-set` - สำหรับเซ็ตการ์ดใหม่
 
 **ตัวอย่าง Issue:**
 
 ```
-Title: [card-data] เพิ่มการ์ด BT09-001 ถึง BT09-050
+Title: [new-card] เพิ่มการ์ด BT09
 
 Description:
 - เซ็ต: BT09
