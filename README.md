@@ -1,41 +1,35 @@
 # Battle of Talinchan Cards
 
-Card data and helper functions for Battle of Talinchan trading card game.
+ข้อมูลการ์ดและฟังก์ชันช่วยเหลือสำหรับเกมการ์ดสะสม Battle of Talinchan
 
-## Legal Disclaimer
+## ข้อความปฏิเสธความรับผิดชอบ
 
-**English:**
+โปรเจกต์นี้จัดทำขึ้นโดยแฟนคลับ (Fan-made) เพื่อรวบรวมข้อมูลการ์ดเท่านั้น ไม่มีความเกี่ยวข้อง สนับสนุน หรือได้รับอนุญาตอย่างเป็นทางการจาก บริษัท พสุโลล จำกัด / บริษัท ไลอ้อน เฮ้าส์ จำกัด รูปภาพและข้อความบนการ์ดเป็นลิขสิทธิ์ของ © บริษัท พสุโลล จำกัด / บริษัท ไลอ้อน เฮ้าส์ จำกัด ซอร์สโค้ดของโปรเจกต์นี้อยู่ภายใต้สัญญาอนุญาตแบบ MIT License
 
-This project is a fan-made database and is not affiliated with, endorsed, or sponsored by PASULOL CO., LTd. / LION HOUSE Co.,Ltd. The card images and text are copyright © PASULOL CO., LTd. / LION HOUSE Co.,Ltd. The source code of this project is licensed under the MIT License.
+## การติดตั้ง
 
-**Thai:**
+โปรเจกต์นี้ใช้ [pnpm](https://pnpm.io/) เป็นตัวจัดการแพ็กเกจ
 
-ข้อความปฏิเสธความรับผิดชอบ (Disclaimer) โปรเจกต์นี้จัดทำขึ้นโดยแฟนคลับ (Fan-made) เพื่อรวบรวมข้อมูลการ์ดเท่านั้น ไม่มีความเกี่ยวข้อง สนับสนุน หรือได้รับอนุญาตอย่างเป็นทางการจาก บริษัท พสุโลล จำกัด / บริษัท ไลอ้อน เฮ้าส์ จำกัด รูปภาพและข้อความบนการ์ดเป็นลิขสิทธิ์ของ © บริษัท พสุโลล จำกัด / บริษัท ไลอ้อน เฮ้าส์ จำกัด ซอร์สโค้ดของโปรเจกต์นี้อยู่ภายใต้สัญญาอนุญาตแบบ MIT License
+### ความต้องการเบื้องต้น
 
-## Installation
+- Node.js (แนะนำเวอร์ชัน v18 หรือสูงกว่า)
+- pnpm (ติดตั้งแบบ global: `npm install -g pnpm`)
 
-This project uses [pnpm](https://pnpm.io/) as the package manager.
+### การตั้งค่า
 
-### Prerequisites
-
-- Node.js (v18 or higher recommended)
-- pnpm (install globally: `npm install -g pnpm`)
-
-### Setup
-
-1. Install dependencies:
+1. ติดตั้ง dependencies:
 ```bash
 pnpm install
 ```
 
-2. Build the project (optional):
+2. Build โปรเจกต์ (ไม่บังคับ):
 ```bash
 pnpm build
 ```
 
-## Usage
+## การใช้งาน
 
-### Import Helper Functions
+### นำเข้า Helper Functions
 
 ```typescript
 import {
@@ -49,11 +43,11 @@ import {
 } from './src/utils/cardHelpers';
 ```
 
-### Helper Functions API
+### API ของ Helper Functions
 
 #### `getAllCards()`
 
-Returns all cards from all sets.
+คืนค่าการ์ดทั้งหมดจากทุกเซ็ต
 
 ```typescript
 const allCards = getAllCards();
@@ -62,12 +56,12 @@ console.log(`Total cards: ${allCards.length}`);
 
 #### `getCardsBySet(setCode: string)`
 
-Get cards from a specific set.
+ดึงการ์ดจากเซ็ตที่ระบุ
 
-**Parameters:**
-- `setCode` - Set code (e.g., 'BT01', 'BT02', 'SD01')
+**พารามิเตอร์:**
+- `setCode` - รหัสเซ็ต (เช่น 'BT01', 'BT02', 'SD01')
 
-**Returns:** Array of cards from the specified set
+**คืนค่า:** อาร์เรย์ของการ์ดจากเซ็ตที่ระบุ
 
 ```typescript
 const bt01Cards = getCardsBySet('BT01');
@@ -76,12 +70,12 @@ console.log(`BT01 has ${bt01Cards.length} cards`);
 
 #### `searchCards(query: string)`
 
-Search cards by name (case-insensitive, partial match).
+ค้นหาการ์ดตามชื่อ (ไม่สนใจตัวพิมพ์ใหญ่-เล็ก, รองรับการค้นหาแบบบางส่วน)
 
-**Parameters:**
-- `query` - Search query string
+**พารามิเตอร์:**
+- `query` - ข้อความค้นหา
 
-**Returns:** Array of cards matching the query
+**คืนค่า:** อาร์เรย์ของการ์ดที่ตรงกับคำค้นหา
 
 ```typescript
 const results = searchCards('นนทก');
@@ -90,32 +84,32 @@ console.log(`Found ${results.length} cards`);
 
 #### `filterCards(filters: FilterOptions)`
 
-Filter cards by various criteria.
+กรองการ์ดตามเกณฑ์ต่างๆ
 
-**Filter Options:**
-- `type?: CardType | CardType[]` - Filter by card type ('Avatar', 'Magic', 'Life', 'Construct')
-- `color?: CardColor | CardColor[]` - Filter by color ('แดง', 'ฟ้า', 'เขียว', 'ม่วง', 'ไม่มีสี')
-- `rarity?: Rarity | Rarity[]` - Filter by rarity ('SR', 'UR', 'PR', 'CBR', 'C', 'SCR', 'R', 'USEC')
-- `symbol?: Symbol | Symbol[]` - Filter by symbol
-- `cost?: number | { min?: number; max?: number }` - Filter by cost (exact or range)
-- `gem?: number | { min?: number; max?: number }` - Filter by gem (exact or range)
-- `power?: number | { min?: number; max?: number }` - Filter by power (exact or range)
-- `setCode?: string | string[]` - Filter by set code(s)
-- `name?: string` - Filter by name (partial match)
+**ตัวเลือกการกรอง:**
+- `type?: CardType | CardType[]` - กรองตามประเภทการ์ด ('Avatar', 'Magic', 'Life', 'Construct')
+- `color?: CardColor | CardColor[]` - กรองตามสี ('แดง', 'ฟ้า', 'เขียว', 'ม่วง', 'ไม่มีสี')
+- `rarity?: Rarity | Rarity[]` - กรองตามความหายาก ('SR', 'UR', 'PR', 'CBR', 'C', 'SCR', 'R', 'USEC')
+- `symbol?: Symbol | Symbol[]` - กรองตามสัญลักษณ์
+- `cost?: number | { min?: number; max?: number }` - กรองตามค่าใช้จ่าย (ระบุค่าหรือช่วง)
+- `gem?: number | { min?: number; max?: number }` - กรองตามอัญมณี (ระบุค่าหรือช่วง)
+- `power?: number | { min?: number; max?: number }` - กรองตามพลัง (ระบุค่าหรือช่วง)
+- `setCode?: string | string[]` - กรองตามรหัสเซ็ต
+- `name?: string` - กรองตามชื่อ (รองรับการค้นหาแบบบางส่วน)
 
-**Returns:** Array of cards matching all filter criteria
+**คืนค่า:** อาร์เรย์ของการ์ดที่ตรงกับเกณฑ์การกรองทั้งหมด
 
 ```typescript
-// Filter by type
+// กรองตามประเภท
 const avatarCards = filterCards({ type: 'Avatar' });
 
-// Filter by color
+// กรองตามสี
 const redCards = filterCards({ color: 'แดง' });
 
-// Filter by cost range
+// กรองตามช่วงค่าใช้จ่าย
 const midCostCards = filterCards({ cost: { min: 2, max: 4 } });
 
-// Multiple filters
+// กรองหลายเกณฑ์พร้อมกัน
 const complexFilter = filterCards({
   type: 'Avatar',
   color: 'แดง',
@@ -125,12 +119,12 @@ const complexFilter = filterCards({
 
 #### `getCardByPrint(printCode: string)`
 
-Get a specific card by print code.
+ดึงการ์ดเฉพาะตามรหัสการ์ด
 
-**Parameters:**
-- `printCode` - Print code (e.g., 'BT01-001')
+**พารามิเตอร์:**
+- `printCode` - รหัสการ์ด (เช่น 'BT01-001')
 
-**Returns:** Card with matching print code, or `undefined` if not found
+**คืนค่า:** การ์ดที่ตรงกับรหัสการ์ด หรือ `undefined` ถ้าไม่พบ
 
 ```typescript
 const card = getCardByPrint('BT01-001');
@@ -141,9 +135,9 @@ if (card) {
 
 #### `getUniqueCards()`
 
-Get unique cards (deduplicated by name/print, keeping one variant).
+ดึงการ์ดที่ไม่ซ้ำกัน (ลบการ์ดที่ซ้ำตามชื่อ/รหัสการ์ด โดยเก็บไว้เพียงตัวแปรเดียว)
 
-**Returns:** Array of unique cards
+**คืนค่า:** อาร์เรย์ของการ์ดที่ไม่ซ้ำกัน
 
 ```typescript
 const uniqueCards = getUniqueCards();
@@ -152,67 +146,67 @@ console.log(`Unique cards: ${uniqueCards.length}`);
 
 #### `getAvailableSetCodes()`
 
-Get all available set codes.
+ดึงรหัสเซ็ตทั้งหมดที่มี
 
-**Returns:** Array of set codes
+**คืนค่า:** อาร์เรย์ของรหัสเซ็ต
 
 ```typescript
 const setCodes = getAvailableSetCodes();
 console.log('Available sets:', setCodes);
 ```
 
-## Example Scripts
+## สคริปต์ตัวอย่าง
 
-The project includes example scripts demonstrating how to use the helper functions.
+โปรเจกต์นี้มีสคริปต์ตัวอย่างที่แสดงวิธีการใช้ฟังก์ชันช่วยเหลือ
 
-### Run Examples
+### รันตัวอย่าง
 
 ```bash
-# Run search example
+# รันตัวอย่างการค้นหา
 pnpm example:search
 
-# Run filter example
+# รันตัวอย่างการกรอง
 pnpm example:filter
 
-# Run set example
+# รันตัวอย่างเซ็ต
 pnpm example:set
 
-# Run all examples
+# รันตัวอย่างทั้งหมด
 pnpm example:all
 ```
 
-### Example Scripts
+### สคริปต์ตัวอย่าง
 
-- **`examples/search-example.ts`** - Demonstrates searching cards by name and getting cards by print code
-- **`examples/filter-example.ts`** - Demonstrates filtering cards by various criteria
-- **`examples/set-example.ts`** - Demonstrates working with card sets
+- **`examples/search-example.ts`** - แสดงการค้นหาการ์ดตามชื่อและการดึงการ์ดตามรหัสการ์ด
+- **`examples/filter-example.ts`** - แสดงการกรองการ์ดตามเกณฑ์ต่างๆ
+- **`examples/set-example.ts`** - แสดงการทำงานกับเซ็ตการ์ด
 
-## Card Data Structure
+## โครงสร้างข้อมูลการ์ด
 
-Cards are organized by sets:
-- **BT01-BT08**: Booster sets
-- **SD01-SD07**: Structure decks
-- **CC01-CC02**: Collection sets
-- **ODY1**: Odyssey set
-- **PRE0**: Pre-release set
-- **PRMO**: Promo set
-- **SL01**: Special set
+การ์ดถูกจัดระเบียบตามเซ็ต:
+- **BT01-BT08**: เซ็ตบูสเตอร์
+- **SD01-SD07**: สตรัคเจอร์เด็ค
+- **CC01-CC02**: เซ็ตคอลเลกชัน
+- **ODY1**: เซ็ต Odyssey
+- **PRE0**: เซ็ต Pre-release
+- **PRMO**: เซ็ตโปรโมชัน
+- **SL01**: เซ็ตพิเศษ
 
-Each card has the following structure:
+การ์ดแต่ละใบมีโครงสร้างดังนี้:
 
 ```typescript
 interface Card {
   name: string;
   type: 'Avatar' | 'Magic' | 'Life' | 'Construct';
-  print: string; // e.g., 'BT01-001'
+  print: string; // เช่น 'BT01-001'
   rare: Rarity;
   soi: number;
   mainEffect: string;
-  // ... additional fields based on card type
+  // ... ฟิลด์เพิ่มเติมตามประเภทการ์ด
 }
 ```
 
-## Development
+## การพัฒนา
 
 ### Build
 
@@ -220,13 +214,28 @@ interface Card {
 pnpm build
 ```
 
-### Run TypeScript files directly
+### รันไฟล์ TypeScript โดยตรง
 
 ```bash
 pnpm dev <file.ts>
 ```
 
-## License
+## การมีส่วนร่วม
+
+เรายินดีต้อนรับการมีส่วนร่วมจากทุกคน! หากคุณต้องการเพิ่มหรืออัปเดตข้อมูลการ์ด กรุณาดำเนินการดังนี้:
+
+### การเพิ่มหรืออัปเดตข้อมูลการ์ด
+
+1. **เปิด Issue**: ก่อนเริ่มทำงาน กรุณาเปิด issue ใหม่พร้อมกับ tag ที่เหมาะสม (เช่น `card-data`, `new-card`, `update-card`, `bug-fix`) เพื่อแจ้งให้ทีมทราบว่าคุณกำลังจะทำอะไร
+2. **อธิบายรายละเอียด**: ใน issue กรุณาระบุ:
+   - การ์ดที่ต้องการเพิ่มหรืออัปเดต
+   - รหัสการ์ด (print code) หรือเซ็ตที่เกี่ยวข้อง
+   - ข้อมูลที่ต้องการเปลี่ยนแปลง (ถ้ามี)
+3. **รอการอนุมัติ**: รอให้ maintainer ตรวจสอบและอนุมัติก่อนเริ่มทำงาน
+4. **สร้าง Pull Request**: หลังจากที่ได้รับการอนุมัติแล้ว สร้าง pull request พร้อมกับอ้างอิงถึง issue ที่เกี่ยวข้อง
+
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับรูปแบบข้อมูลการ์ดและขั้นตอนการมีส่วนร่วม กรุณาอ่าน [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## สัญญาอนุญาต
 
 MIT
-
