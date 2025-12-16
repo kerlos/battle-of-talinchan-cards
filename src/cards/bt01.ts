@@ -592,7 +592,7 @@ export const CARDS_BT01: Card[] = [
     cost: 3,
     gem: 1,
     power: 3,
-    symbol: "หุ่นยนต์",
+    symbol: "ยักษ์",
     color: "เขียว",
   },
   {

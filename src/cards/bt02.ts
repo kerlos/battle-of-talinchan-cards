@@ -570,7 +570,6 @@ export const CARDS_BT02: Card[] = [
     power: 1,
     symbol: "คน",
     color: "แดง",
-    ex: "Only #1",
   },
   {
     name: "ตู้เย็นเบอร์ 1",
