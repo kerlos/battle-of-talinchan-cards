@@ -503,7 +503,7 @@ export const CARDS_ODY1: Card[] = [
     type: "Avatar",
     soi: 1,
     print: "ODY1-039",
-    rare: "C",
+    rare: "SR",
     mainEffect: "",
     cost: 6,
     gem: 4,
