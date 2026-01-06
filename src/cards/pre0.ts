@@ -7,7 +7,8 @@ export const CARDS_PRE0: Card[] = [
     soi: 1,
     print: "PRE0-001",
     rare: "C",
-    mainEffect: "จุติ (เมื่อ Avatar ตัวนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : ดูการ์ด 3 ใบจากใบล่างสุดของ Deck อีกฝ่ายหลังจากนั้นเลือก 1 ใบวางไว้ใบบนสุดของ Deck อีกฝ่าย การ์ดที่เหลือเรียงไว้ตำแหน่งเดิม",
+    mainEffect:
+      "จุติ (เมื่อ Avatar ตัวนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : ดูการ์ด 3 ใบจากใบล่างสุดของ Deck อีกฝ่ายหลังจากนั้นเลือก 1 ใบวางไว้ใบบนสุดของ Deck อีกฝ่าย การ์ดที่เหลือเรียงไว้ตำแหน่งเดิม",
     cost: 3,
     gem: 2,
     power: 2,
@@ -21,7 +22,8 @@ export const CARDS_PRE0: Card[] = [
     soi: 1,
     print: "PRE0-002",
     rare: "C",
-    mainEffect: "จุติ : สุ่มการ์ดบนมืออีกฝ่าย 1 ใบวางไว้ใบบนสุดของ Deck อีกฝ่าย",
+    mainEffect:
+      "จุติ : สุ่มการ์ดบนมืออีกฝ่าย 1 ใบวางไว้ใบบนสุดของ Deck อีกฝ่าย",
     cost: 3,
     gem: 2,
     power: 2,
@@ -64,11 +66,26 @@ export const CARDS_PRE0: Card[] = [
     soi: 2,
     print: "PRE0-005",
     rare: "C",
-    mainEffect: "ต่อเนื่อง ถ้าใน นรกฝ่ายเรา มี Avatar ที่ชื่อไม่ซ้ำกัน 10 ใบขึ้นไป การ์ดใบนี้ POWER +2",
+    mainEffect:
+      "ต่อเนื่อง ถ้าใน นรกฝ่ายเรา มี Avatar ที่ชื่อไม่ซ้ำกัน 10 ใบขึ้นไป การ์ดใบนี้ POWER +2",
     cost: 2,
     gem: 2,
     power: 2,
     symbol: "เอเลี่ยน",
     color: "แดง",
+  },
+  {
+    name: "ผู้เล่นโซเชียล",
+    type: "Avatar",
+    soi: 2,
+    print: "PRE0-005-2",
+    rare: "C",
+    mainEffect:
+      "จุติ : เลือก Avatar ฝ่ายตรงข้าม ที่ POWER น้อยกว่า Avatar ใบนี้ : นำมาไว้ที่ Magic Zone ของฝ่ายเรา",
+    cost: 5,
+    gem: 1,
+    power: 3,
+    symbol: "คน",
+    color: "ม่วง",
   },
 ];

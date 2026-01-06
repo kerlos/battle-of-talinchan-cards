@@ -21,4 +21,8 @@ export { CARDS_SD06 } from "./sd06";
 export { CARDS_SD07 } from "./sd07";
 export { CARDS_SL01 } from "./sl01";
 export { CARDS_SL02 } from "./sl02";
+export { CARDS_KD01 } from "./kd01";
+export { CARDS_KD02 } from "./kd02";
+export { CARDS_KD03 } from "./kd03";
+export { CARDS_KD04 } from "./kd04";
 
