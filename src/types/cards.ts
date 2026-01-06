@@ -35,7 +35,8 @@ export type Symbol =
   | 'ฤษี'
   | 'กะปอม'
   | 'สัตว์มหัศจรรย์'
-  | 'ทหาร';
+  | 'ทหาร'
+  | 'ไวไฟ';
 
 export interface BaseCard {
   name: string;
