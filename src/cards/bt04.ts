@@ -157,7 +157,7 @@ export const CARDS_BT04: Card[] = [
     print: "BT04-010",
     rare: "UR",
     mainEffect: "อัตโนมัติ เมื่อ Avatar ใบนี้โจมตี : สอดแนม 5 ใบ นำ Avatar symbol กะปอม กี่ใบก็ได้ อัญเชิญ จุติ ลงบน Avatar zone ฝ่ายเรา นำการ์ดที่เหลือกลับเข้า Deck แล้วสับ",
-    cost: 5,
+    cost: 6,
     gem: 3,
     power: 6,
     symbol: "กะปอม",
