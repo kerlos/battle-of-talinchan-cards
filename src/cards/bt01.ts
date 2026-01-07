@@ -391,7 +391,7 @@ export const CARDS_BT01: Card[] = [
     print: "BT01-020",
     rare: "SR",
     mainEffect:
-      "จุติ (เมื่อ Avatar ใบนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : อัญเชิญ Avatar {รูป symbol ผี} จากใน Deck 1 ใบ ลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck\n\nต่อเนื่อง ตราบเท่าที่มีการ์ด Avatar {รูป symbol ผี} ใบอื่นบน Avatar Zone ฝ่ายเรา อีกฝ่ายจะไม่สามารถเลือก Avatar \"ศาลพระภูมิ\" เป็นเป้าหมายการโจมตีได้",
+      "จุติ (เมื่อ Avatar ใบนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : อัญเชิญ Avatar {symbol ผี} จากใน Deck 1 ใบ ลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck\n\nต่อเนื่อง ตราบเท่าที่มีการ์ด Avatar {symbol ผี} ใบอื่นบน Avatar Zone ฝ่ายเรา อีกฝ่ายจะไม่สามารถเลือก Avatar \"ศาลพระภูมิ\" เป็นเป้าหมายการโจมตีได้",
     cost: 4,
     gem: 1,
     power: 2,
@@ -405,7 +405,7 @@ export const CARDS_BT01: Card[] = [
     print: "BT01-020",
     rare: "SCR",
     mainEffect:
-      "จุติ (เมื่อ Avatar ใบนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : อัญเชิญ Avatar {รูป symbol ผี} จากใน Deck 1 ใบ ลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck\n\nต่อเนื่อง ตราบเท่าที่มีการ์ด Avatar {รูป symbol ผี} ใบอื่นบน Avatar Zone ฝ่ายเรา อีกฝ่ายจะไม่สามารถเลือก Avatar \"ศาลพระภูมิ\" เป็นเป้าหมายการโจมตีได้",
+      "จุติ (เมื่อ Avatar ใบนี้ถูกอัญเชิญลงสนามแบบจ่ายCost) : อัญเชิญ Avatar {symbol ผี} จากใน Deck 1 ใบ ลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck\n\nต่อเนื่อง ตราบเท่าที่มีการ์ด Avatar {symbol ผี} ใบอื่นบน Avatar Zone ฝ่ายเรา อีกฝ่ายจะไม่สามารถเลือก Avatar \"ศาลพระภูมิ\" เป็นเป้าหมายการโจมตีได้",
     cost: 4,
     gem: 1,
     power: 2,
@@ -636,7 +636,7 @@ export const CARDS_BT01: Card[] = [
     soi: 1,
     print: "BT01-037",
     rare: "R",
-    mainEffect: "เซ่นไหว้ (ทำลายจากสนามลงนรก) Avatar \"Symbol สัตว์\" บน Avatar Zone ฝ่ายเรา 1 ใบ : จั่วการ์ดจาก Deck 3 ใบ จากนั้นในเทิร์นนี้จะอัญเชิญได้แค่ Avatar \"Symbol สัตว์\"",
+    mainEffect: "เซ่นไหว้ (ทำลายจากสนามลงนรก) Avatar {symbol สัตว์} บน Avatar Zone ฝ่ายเรา 1 ใบ : จั่วการ์ดจาก Deck 3 ใบ จากนั้นในเทิร์นนี้จะอัญเชิญได้แค่ Avatar {symbol สัตว์}",
     subtype: "Normal",
     cost: 1,
     symbol: "จอมเวทย์",

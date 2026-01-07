@@ -36,7 +36,7 @@ export const CARDS_SD05: Card[] = [
     soi: 1,
     print: "SD05-003",
     rare: "C",
-    mainEffect: "จุติ : แสดงการ์ดจากล่างสุดของ Deck ตามจำนวน Avatar ที่อยู่ในสภาพนอนทั้งสนาม เลือก Avatar Symbol {ปลา} 1 ใบจากที่แสดงนำขึ้นมือ จากนั้นนำการ์ดที่เหลือกลับ Deck แล้วสับ",
+    mainEffect: "จุติ : แสดงการ์ดจากล่างสุดของ Deck ตามจำนวน Avatar ที่อยู่ในสภาพนอนทั้งสนาม เลือก Avatar {symbol ปลา} 1 ใบจากที่แสดงนำขึ้นมือ จากนั้นนำการ์ดที่เหลือกลับ Deck แล้วสับ",
     cost: 1,
     gem: 1,
     power: 1,
@@ -238,7 +238,7 @@ export const CARDS_SD05: Card[] = [
     print: "SD05-015",
     rare: "C",
     mainEffect:
-      "เลือก Avatar Symbol ปลาในนรกเรา 1 ใบ  : อัญเชิญลงบน Avatar Zone ฝ่ายเราในสภาพนอน\n\nถ้าบนสนามมี Land Magic \"บึงทมิฬ\" อัญเชิญลงบนสนามในสภาพตื่น",
+      "เลือก Avatar {symbol ปลา}ในนรกเรา 1 ใบ  : อัญเชิญลงบน Avatar Zone ฝ่ายเราในสภาพนอน\n\nถ้าบนสนามมี Land Magic \"บึงทมิฬ\" อัญเชิญลงบนสนามในสภาพตื่น",
     subtype: "Normal",
     cost: 2,
     symbol: "ปลา",

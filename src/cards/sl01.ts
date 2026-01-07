@@ -7,7 +7,7 @@ export const CARDS_SL01: Card[] = [
     soi: 1,
     print: "SL01-001",
     rare: "USEC",
-    mainEffect: "จุติ เลือก Avatar Symbol {ยักษ์} ที่ POWER ไม่เกิน 3 ในนรกฝ่ายเรา 1 ใบ : อัญเชิญ Avatar ใบนั้นลงบน Avatar Zone ฝ่ายเรา",
+    mainEffect: "จุติ เลือก Avatar {symbol ยักษ์} ที่ POWER ไม่เกิน 3 ในนรกฝ่ายเรา 1 ใบ : อัญเชิญ Avatar ใบนั้นลงบน Avatar Zone ฝ่ายเรา",
     cost: 4,
     gem: 2,
     power: 3,
