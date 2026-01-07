@@ -54,6 +54,20 @@ export const CARDS_KD04: Card[] = [
     color: "แดง",
   },
   {
+    name: "ยานเกราะผู้กล้า : ไดบาเรีย",
+    type: "Avatar",
+    soi: 1,
+    print: "KD04-005",
+    rare: "SCR",
+    mainEffect:
+      "ถ้าการ์ดใบนี้ถูกใช้เป็น Cost ในการอัญเชิญ : จั่วการ์ด 1 ใบ\n\n#การ์ดใบนี้ใช้เป็น Cost การอัญเชิญได้เฉพาะ Avatar {Symbol หุ่นยนต์}  ที่มีสีของ Avatar เป็นสีแดงเท่านั้น",
+    cost: 0,
+    gem: 4,
+    power: 0,
+    symbol: "หุ่นยนต์",
+    color: "แดง",
+  },
+  {
     name: "สุดยอดท่าไม้ตายผู้กล้า THE END",
     type: "Magic",
     soi: 3,
@@ -73,6 +87,18 @@ export const CARDS_KD04: Card[] = [
     mainEffect: "เลือก Avatar \"ไมเกรน\" 1 ใบ บน Avatar Zone ฝ่ายเรา : Avatar ใบที่เลือก ได้รับ \" อัตโนมัติ เมื่อ Avatar ใบนี้โจมตี : Avatar ใบนี้จะทำการต่อสู้กับ Avatar บน Avatar Zone ฝ่ายตรงข้าม ทุกใบพร้อมกัน\" จนจบเทิร์น \n สั่งใช้ เนรเทศ การ์ดใบนี้ในนรก : นำ \"อาวุรหุ่นนักรบผู้กล้า\" จากนรกชื่อ แตกต่างกันกี่ใบก็ได้ มาสวมใส่ให้ Avatar \"ไมเกรน\" 1 ใบ บน Avatar Zone ฝ่ายเรา ถ้าการ์ดใบนี้ถูก ธรณีสูบ หรือ สอดแนม ด้วย Avatar \"ไมเกรน\" : นำการ์ดใบนี้ ขึ้นมือ",
     subtype: "Normal",
     cost: 4,
+    symbol: "หุ่นยนต์",
+  },
+  {
+    name: "อาวุธหุ่นนักรบผู้กล้า \"อีโบล่า ซอร์ด\"",
+    type: "Magic",
+    soi: 1,
+    print: "KD04-013",
+    rare: "SCR",
+    mainEffect:
+      "สวมใส่ได้เฉพาะ Avatar {Symbol หุ่นยนต์} เท่านั้น\n\nAvatar ที่สวมใส่การ์ดใบนี้ POWER + 1 แต่ถ้า Avatar ที่สวมใส่การ์ดใบนี้ชื่อ \"หุ่นนักรบผู้กล้า\" POWER + 3 แทน",
+    subtype: "Modification",
+    cost: 2,
     symbol: "หุ่นยนต์",
   },
 ]
