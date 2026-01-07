@@ -718,7 +718,7 @@ export const CARDS_BT05: Card[] = [
     print: "BT05-041",
     rare: "C",
     mainEffect:
-      "จุติ ถ้ามี Avatar \"รถถัง\" บนสนามฝ่ายเรา : ทำลาย Avatar {Symbol ชาวต่างชาติ} 1 ใบ\nเทิร์นละครั้ง สั่งใช้ : นำ Avatar ใบนี้บน Avatar Zone ไปสวมให้ Avatar \"รถถัง\" ที่อยู่บน Avatar Zone ฝ่ายเรา \nเมื่อ Avatar \"รถถัง\" ที่สวมใส่ การ์ดใบนี้ ต่อสู้กับ Avatar {Symbol ชาวต่างชาติ} : นำ Avatar ที่ต่อสู้กับรถถังที่สวมใส่การ์ดนี้เข้าใต้ Deck",
+      "จุติ ถ้ามี Avatar \"รถถัง\" บนสนามฝ่ายเรา : ทำลาย Avatar {symbol ต่างชาติ} 1 ใบ\nเทิร์นละครั้ง สั่งใช้ : นำ Avatar ใบนี้บน Avatar Zone ไปสวมให้ Avatar \"รถถัง\" ที่อยู่บน Avatar Zone ฝ่ายเรา \nเมื่อ Avatar \"รถถัง\" ที่สวมใส่ การ์ดใบนี้ ต่อสู้กับ Avatar {symbol ต่างชาติ} : นำ Avatar ที่ต่อสู้กับรถถังที่สวมใส่การ์ดนี้เข้าใต้ Deck",
     cost: 3,
     gem: 3,
     power: 1,
@@ -928,7 +928,7 @@ export const CARDS_BT05: Card[] = [
     print: "BT05-056",
     rare: "UR",
     mainEffect:
-      "เลือกปฏิบัติ :\n1) เลือก Avatar {Symbol เปรต } 1 ใบบน Avatar Zone ฝ่ายเรา นำ Modification Magic \"\"ตีพ่อ\"\" และ \"\"ตีแม่\"\" จากใน Deck มาสวมใส่ ให้ Avatar {Symbol เปรต } ใบที่เลือก\n2) นำ Avatar {Symbol เปรต} 1 ใบ จากใน Deck เรา ขึ้นมือจากนั้นสับ Deck\nถ้าเราอยู่ในสถานะ สาหัส สามารถ ทำความสามารถ 1) และ 2)",
+      "เลือกปฏิบัติ :\n1) เลือก Avatar {Symbol เปรต} 1 ใบบน Avatar Zone ฝ่ายเรา นำ Modification Magic \"\"ตีพ่อ\"\" และ \"\"ตีแม่\"\" จากใน Deck มาสวมใส่ ให้ Avatar {Symbol เปรต} ใบที่เลือก\n2) นำ Avatar {Symbol เปรต} 1 ใบ จากใน Deck เรา ขึ้นมือจากนั้นสับ Deck\nถ้าเราอยู่ในสถานะ สาหัส สามารถ ทำความสามารถ 1) และ 2)",
     subtype: "Normal",
     cost: 2,
     symbol: "เปรต",
@@ -940,7 +940,7 @@ export const CARDS_BT05: Card[] = [
     print: "BT05-056",
     rare: "SCR",
     mainEffect:
-      "เลือกปฏิบัติ :\n1) เลือก Avatar {Symbol เปรต } 1 ใบบน Avatar Zone ฝ่ายเรา นำ Modification Magic \"\"ตีพ่อ\"\" และ \"\"ตีแม่\"\" จากใน Deck มาสวมใส่ ให้ Avatar {Symbol เปรต } ใบที่เลือก\n2) นำ Avatar {Symbol เปรต} 1 ใบ จากใน Deck เรา ขึ้นมือจากนั้นสับ Deck\nถ้าเราอยู่ในสถานะ สาหัส สามารถ ทำความสามารถ 1) และ 2)",
+      "เลือกปฏิบัติ :\n1) เลือก Avatar {Symbol เปรต} 1 ใบบน Avatar Zone ฝ่ายเรา นำ Modification Magic \"\"ตีพ่อ\"\" และ \"\"ตีแม่\"\" จากใน Deck มาสวมใส่ ให้ Avatar {Symbol เปรต} ใบที่เลือก\n2) นำ Avatar {Symbol เปรต} 1 ใบ จากใน Deck เรา ขึ้นมือจากนั้นสับ Deck\nถ้าเราอยู่ในสถานะ สาหัส สามารถ ทำความสามารถ 1) และ 2)",
     subtype: "Normal",
     cost: 2,
     symbol: "เปรต",
@@ -1020,7 +1020,7 @@ export const CARDS_BT05: Card[] = [
     print: "BT05-063",
     rare: "C",
     mainEffect:
-      "สวมใส่ได้เฉพาะ Avatar {symbol เครื่องจักร} เท่านั้น\nAvatar ที่สวมใส่การ์ดใบนี้ จะไม่ถูกเปลี่ยน Symbol",
+      "สวมใส่ได้เฉพาะ Avatar {symbol หุ่นยนต์} เท่านั้น\nAvatar ที่สวมใส่การ์ดใบนี้ จะไม่ถูกเปลี่ยน Symbol",
     subtype: "Modification",
     cost: 2,
     symbol: "หุ่นยนต์",

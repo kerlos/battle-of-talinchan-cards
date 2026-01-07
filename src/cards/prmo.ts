@@ -984,7 +984,7 @@ export const CARDS_PRMO: Card[] = [
     print: "PRMO-077",
     rare: "SR",
     mainEffect:
-      "จุติ ถ้ามี Avatar \"รถถัง\" บนสนามฝ่ายเรา : ทำลาย Avatar {Symbol ชาวต่างชาติ} 1 ใบ\nเทิร์นละครั้ง สั่งใช้ : นำ Avatar ใบนี้บน Avatar Zone ไปสวมให้ Avatar \"รถถัง\" ที่อยู่บน Avatar Zone ฝ่ายเรา \nเมื่อ Avatar \"รถถัง\" ที่สวมใส่ การ์ดใบนี้ ต่อสู้กับ Avatar {Symbol ชาวต่างชาติ} : นำ Avatar ที่ต่อสู้กับรถถังที่สวมใส่การ์ดนี้เข้าใต้ Deck",
+      "จุติ ถ้ามี Avatar \"รถถัง\" บนสนามฝ่ายเรา : ทำลาย Avatar {symbol ต่างชาติ} 1 ใบ\nเทิร์นละครั้ง สั่งใช้ : นำ Avatar ใบนี้บน Avatar Zone ไปสวมให้ Avatar \"รถถัง\" ที่อยู่บน Avatar Zone ฝ่ายเรา \nเมื่อ Avatar \"รถถัง\" ที่สวมใส่ การ์ดใบนี้ ต่อสู้กับ Avatar {symbol ต่างชาติ} : นำ Avatar ที่ต่อสู้กับรถถังที่สวมใส่การ์ดนี้เข้าใต้ Deck",
     cost: 3,
     gem: 3,
     power: 1,
