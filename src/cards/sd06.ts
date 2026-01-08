@@ -176,7 +176,7 @@ export const CARDS_SD06: Card[] = [
     gem: 0,
     power: 3,
     symbol: "คน",
-    color: "ม่วง",
+    color: "แดง",
     dropRate: "3 / กล่อง",
   },
   {
