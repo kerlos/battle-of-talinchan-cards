@@ -58,6 +58,20 @@ export const CARDS_BT09: Card[] = [
     color: "แดง",
   },
   {
+    name: "DJ ปีโป้",
+    type: "Avatar",
+    soi: 3,
+    print: "BT09-004",
+    rare: "C",
+    mainEffect:
+      "อัตโนมัติ เมื่อ LIFE Card ฝ่ายตรงข้าม ถูกหงายจากการโจมตีของ Avatar ฝ่ายเรา ผู้ควบคุมการ์ดใบนี้ ต้องพูดคำว่า “ขอโทษ” : หากผู้เล่นฝ่ายใดพูดว่า LIFE Card มากเกินให้ ความสามารถของ LIFE Card ใบนันจะไม่ทำงาน",
+    cost: 4,
+    gem: 0,
+    power: 4,
+    symbol: "คน",
+    color: "แดง",
+  },
+  {
     name: "กัณหา นาคเกล็ดดำ",
     type: "Avatar",
     soi: 3,
@@ -503,6 +517,18 @@ export const CARDS_BT09: Card[] = [
     power: 6,
     symbol: "เอเลี่ยน",
     color: "ฟ้า",
+  },
+  {
+    name: "ขอโทษสังคม",
+    type: "Magic",
+    soi: 3,
+    print: "BT09-049",
+    rare: "C",
+    mainEffect:
+      "ในเทิร์นนี้ การขอโทษจากความสามารถของ Avatar DJ ปีโป้ จะได้รับการยกโทษให้เสมอ #การ์ดใบนี้สามารถใช้ทิ้งเป็น Cost เพื่ออัญเชิญได้เฉพาะการ์ด DJ ปีโป้ เท่านั้น",
+    subtype: "Normal",
+    cost: 4,
+    symbol: "จอมเวทย์",
   },
   {
     name: "ผจญภัยด้วยกัน",
