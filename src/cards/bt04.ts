@@ -102,7 +102,7 @@ export const CARDS_BT04: Card[] = [
     print: "BT04-007",
     rare: "UR",
     mainEffect:
-      "เทิร์นละครั้ง สั่งใช้  เลือกปฎิบัติ :\n\n1) Avatar ใบนี้ POWER +2 จนถึง End Phase ต่อไปของฝ่ายตรงข้าม\n\n2) หากเทิร์นนี้ยังไม่มีการใช้ Modification Magic : นำ Modification Magic 1 ใบ จาก นรกฝ่ายเรา มาสวมใส่ที่ Avatar ใบนี้ และนับว่าเป็นการใช้ Modification Magic\n\n#Avatar ใบนี้ เป็น Symbol สัตว์ ด้วย",
+      "เทิร์นละครั้ง สั่งใช้  เลือกปฏิบัติ :\n\n1) Avatar ใบนี้ POWER +2 จนถึง End Phase ต่อไปของฝ่ายตรงข้าม\n\n2) หากเทิร์นนี้ยังไม่มีการใช้ Modification Magic : นำ Modification Magic 1 ใบ จาก นรกฝ่ายเรา มาสวมใส่ที่ Avatar ใบนี้ และนับว่าเป็นการใช้ Modification Magic\n\n#Avatar ใบนี้ เป็น Symbol สัตว์ ด้วย",
     cost: 5,
     gem: 1,
     power: 4,
@@ -116,7 +116,7 @@ export const CARDS_BT04: Card[] = [
     print: "BT04-007",
     rare: "SCR",
     mainEffect:
-      "เทิร์นละครั้ง สั่งใช้  เลือกปฎิบัติ :\n\n1) Avatar ใบนี้ POWER +2 จนถึง End Phase ต่อไปของฝ่ายตรงข้าม\n\n2) หากเทิร์นนี้ยังไม่มีการใช้ Modification Magic : นำ Modification Magic 1 ใบ จาก นรกฝ่ายเรา มาสวมใส่ที่ Avatar ใบนี้ และนับว่าเป็นการใช้ Modification Magic\n\n#Avatar ใบนี้ เป็น Symbol สัตว์ ด้วย",
+      "เทิร์นละครั้ง สั่งใช้  เลือกปฏิบัติ :\n\n1) Avatar ใบนี้ POWER +2 จนถึง End Phase ต่อไปของฝ่ายตรงข้าม\n\n2) หากเทิร์นนี้ยังไม่มีการใช้ Modification Magic : นำ Modification Magic 1 ใบ จาก นรกฝ่ายเรา มาสวมใส่ที่ Avatar ใบนี้ และนับว่าเป็นการใช้ Modification Magic\n\n#Avatar ใบนี้ เป็น Symbol สัตว์ ด้วย",
     cost: 5,
     gem: 1,
     power: 4,
@@ -774,7 +774,7 @@ export const CARDS_BT04: Card[] = [
     print: "BT04-046",
     rare: "R",
     mainEffect:
-      "เลือกปฏิบัติ :\n\n1) นำ Avatar Cost 5 หรือต่ำกว่า จาก นรก ฝ่ายเรา  ขึ้นมือ 1 ใบ ยกเว้นการ์ด Only 1\n\n2) นำ Avatar ที่มี Cost 5 หรือต่ำกว่า จาก Deck ฝ่ายเรา ขึ้นมือ 1 ใบ ยกเว้นการ์ด  Only 1 แล้วสับ Deck\n\nถ้า Life Card ของเราถูกหงายตั้งแต่ 4 ใบขึ้นไปและหงายมากกว่าฝ่ายตรงข้าม ทำความสามารถ 1) และ 2)",
+      "เลือกปฏิบัติ :\n\n1) นำ Avatar Cost 5 หรือต่ำกว่า จาก นรก ฝ่ายเรา  ขึ้นมือ 1 ใบ ยกเว้นการ์ด {only} \n\n2) นำ Avatar ที่มี Cost 5 หรือต่ำกว่า จาก Deck ฝ่ายเรา ขึ้นมือ 1 ใบ ยกเว้นการ์ด  {only} 1 แล้วสับ Deck\n\nถ้า Life Card ของเราถูกหงายตั้งแต่ 4 ใบขึ้นไปและหงายมากกว่าฝ่ายตรงข้าม ทำความสามารถ 1) และ 2)",
     subtype: "Normal",
     cost: 1,
     symbol: "จอมเวทย์",

@@ -523,8 +523,7 @@ export const CARDS_ODY1: Card[] = [
     gem: 2,
     power: 8,
     symbol: "หุ่นยนต์",
-    color: "แดง",
-    ex: "Only #1",
+    color: "แดง"
   },
   {
     name: "ลูกกบ",
@@ -987,8 +986,7 @@ export const CARDS_ODY1: Card[] = [
     mainEffect: "เซ่นไหว์ Avatar {symbol สัตว์} บนสนามเรา 1 ใบ : จั่วการ์ดจาก Deck 3 ใบ แต่เทิร์นนี้จะอัญเชิญได้แค่ Avatar {symbol สัตว์}",
     subtype: "Normal",
     cost: 1,
-    symbol: "จอมเวทย์",
-    ex: "Only #1",
+    symbol: "จอมเวทย์"
   },
   {
     name: "น้ำชูกำลัง",
@@ -999,8 +997,7 @@ export const CARDS_ODY1: Card[] = [
     mainEffect: "Avatar ที่สวมใส่การ์ดใบนี้จะกลับมาเป็นสภาพตื่น ตอน End Phase",
     subtype: "Modification",
     cost: 1,
-    symbol: "จอมเวทย์",
-    ex: "Only #1",
+    symbol: "จอมเวทย์"
   },
   {
     name: "รั้วของชาติ",
@@ -1085,7 +1082,7 @@ export const CARDS_ODY1: Card[] = [
     soi: 1,
     print: "ODY1-087",
     rare: "C",
-    mainEffect: "เทิร์นละครั้ง สั่งใช้ ถ้าในเทิร์นนี้ยังไม่ได้ใช้ Modification Magic : ในเทิร์นนี้สามารถใช้ Modification Magic \"อาวุธหุ่นนักรบผู้กล้า\" ได้ 2 ใบ และจะไม่สามารถใช้ Modification Magic ที่ไม่ใช่ \"อาวุธหุ่นนักรบผู้กล้า\" ได้",
+    mainEffect: "เมื่อมี Avatar อัญเชิญลงมาบน Avatar Zone : เซ่นไหว้ (ทำลายจาก Avatar Zone ลงนรก) Avatar บน Avatar Zone เรากี่ใบก็ได้ อัญเชิญ Avatar จากบนมือเราตามค่า GEM ของ Avatar ที่ถูกเซ่นไหว้",
     subtype: "React",
     cost: 3,
     symbol: "สัตว์",

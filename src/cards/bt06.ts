@@ -416,7 +416,7 @@ export const CARDS_BT06: Card[] = [
     soi: 2,
     print: "BT06-023",
     rare: "R",
-    mainEffect: "สั่งใช้ เซ่นไหว้ Avatar ใบนี้ ธรณีสูบ 3 ใบ : อัญเชิญ Avatar \"แบงค์\" จากใน Deck เรา ที่ไม่ใช่ Only #1 1 ใบลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck",
+    mainEffect: "สั่งใช้ เซ่นไหว้ Avatar ใบนี้ ธรณีสูบ 3 ใบ : อัญเชิญ Avatar \"แบงค์\" จากใน Deck เรา ที่ไม่ใช่ {only} 1 ใบลง Avatar Zone ฝ่ายเรา จากนั้นสับ Deck",
     cost: 4,
     gem: 2,
     power: 2,
@@ -551,7 +551,7 @@ export const CARDS_BT06: Card[] = [
     print: "BT06-031",
     rare: "C",
     mainEffect:
-      "เทิร์นละครั้ง เลือกปฎิบัติ :\n1) เซ่นไหว้ Avatar ใบนี้ จั่วการ์ด 2 ใบ\n2) ได้รับ ความสามารถ เตะไข่ จนจบเทิร์น จากนั้นทำลาย Avatar ใบนี้ ในช่วง End Phase",
+      "เทิร์นละครั้ง เลือกปฏิบัติ :\n1) เซ่นไหว้ Avatar ใบนี้ จั่วการ์ด 2 ใบ\n2) ได้รับ ความสามารถ เตะไข่ จนจบเทิร์น จากนั้นทำลาย Avatar ใบนี้ ในช่วง End Phase",
     cost: 2,
     gem: 0,
     power: 1,

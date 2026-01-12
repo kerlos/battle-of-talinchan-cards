@@ -1142,7 +1142,7 @@ export const CARDS_PRMO: Card[] = [
     color: "เขียว",
   },
   {
-    name: "ไม่นะโอดคุง!!",
+    name: "ไม่นะโอคุง!!",
     type: "Life",
     soi: 2,
     print: "PRMO-097",

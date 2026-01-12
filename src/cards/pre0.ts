@@ -17,6 +17,18 @@ export const CARDS_PRE0: Card[] = [
     ex: "ลำเอียง",
   },
   {
+    name: "น้ำใจ",
+    type: "Magic",
+    soi: 1,
+    print: "PRE0-001-2",
+    rare: "C",
+    mainEffect:
+      "Avatar ที่สวมใส่การ์ดใบนี้ POWER +0",
+    cost: 1,
+    symbol: "จอมเวทย์",
+    subtype: "Modification",
+  },
+  {
     name: "ผู้เล่นภักดี",
     type: "Avatar",
     soi: 1,
@@ -52,7 +64,7 @@ export const CARDS_PRE0: Card[] = [
     print: "PRE0-004",
     rare: "C",
     mainEffect:
-      "การ์ดใบนี้จะสามารถอัญเชิญได้โดยการทิ้งการ์ด GEM 1 5 ใบ เท่านั้น\nจุติ : ถามจำนวนการ์ดใน Deck ที่เหลือของ อีกฝ่ายว่า มีการ์ด Avatar กี่ใบ Magic กี่ใบ และ Only #1 คืออะไร",
+      "การ์ดใบนี้จะสามารถอัญเชิญได้โดยการทิ้งการ์ด GEM 1 5 ใบ เท่านั้น\nจุติ : ถามจำนวนการ์ดใน Deck ที่เหลือของ อีกฝ่ายว่า มีการ์ด Avatar กี่ใบ Magic กี่ใบ และ {only} คืออะไร",
     cost: 5,
     gem: 4,
     power: 5,
