@@ -420,6 +420,7 @@ export const CARDS_BT09: Card[] = [
     power: 20,
     symbol: "ยักษ์",
     color: "เขียว",
+    ex: "Only #1",
   },
   {
     name: "ภูติผลไม้ มะม่วง",
