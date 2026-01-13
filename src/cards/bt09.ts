@@ -408,6 +408,20 @@ export const CARDS_BT09: Card[] = [
     color: "เขียว",
   },
   {
+    name: "เนฟิล ยักษ์ตัวสุดท้าย",
+    type: "Avatar",
+    soi: 3,
+    print: "BT09-035",
+    rare: "C",
+    mainEffect:
+      "เราไม่สามารถควบคุม Avatar ใบอื่นบน Avatar Zone ได้นอกจากการ์ดใบนี้ หากบน Avatar Zone เรา มี Avatar ใบอื่นอยู่ก่อนหน้า ส่ง Avatar ใบอื่นลงนรกทั้งหมด\nอัตโนมัติ เมื่อจบการต่อสู้ : นำ POWER ของ Avatar ที่ต่อสู้กับ Avatar ใบนี้ มาลด POWER ของ Avatar ใบนี้\nอัตโนมัติ เมื่อ Avatar ใบนี้ POWER เหลือ 0 ทำลาย Avatar ใบนี้\nคำสั่งเสีย หงาย LIFE Card ของฝ่ายเรา 1 ใบ #Avatar ใบนี้ไม่สามารถ สวมใส่การ์ดได้",
+    cost: 9,
+    gem: 0,
+    power: 20,
+    symbol: "ยักษ์",
+    color: "เขียว",
+  },
+  {
     name: "ภูติผลไม้ มะม่วง",
     type: "Avatar",
     soi: 3,
