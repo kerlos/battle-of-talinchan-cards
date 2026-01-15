@@ -272,7 +272,7 @@ export const CARDS_BT09: Card[] = [
     type: "Avatar",
     soi: 3,
     print: "BT09-022",
-    rare: "R",
+    rare: "UR",
     mainEffect:
       `จุติ : สอดแนม 3 ใบ เลือก Avatar {symbol ไวไฟ} หรือ {symbol ปลา} 1 ใบ ที่ Cost ไม่เกิน 5 จากที่ สอดแนม อัญเชิญ Avatar ใบที่เลือก ลงบน Avatar Zone ฝ่ายเรา การ์ดที่เหลือนำกลับเข้า Deck และ สับ ถ้า Avatar ใบนั้นคือ โฮคุ โพลิกอน จั่วการ์ด 1 ใบ \n[Link โฮคุ โพลิกอน]\n เทิร์นละครั้ง สั่งใช้ เปลี่ยน Avatar ใบนี้จากสภาพตื่นเป็นนอน : จั่วการ์ด 1 ใบ #Avatar ใบนี้ นับว่าเป็น {symbol ปลา} ด้วย`,
     cost: 4,
@@ -647,4 +647,5 @@ export const CARDS_BT09: Card[] = [
     symbol: "ต้นไม้",
   },
 ];
+
 
