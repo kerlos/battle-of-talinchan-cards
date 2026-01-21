@@ -19,7 +19,7 @@ export const CARDS_BT10: Card[] = [
     name: "สิ่งปฏิกูลมีชีวิต",
     type: "Avatar",
     soi: 3,
-    print: "BT010-017",
+    print: "BT10-017",
     rare: "C",
     mainEffect:
       `คำสั่งเสีย : สอดแนม 3 ใบ เลือก Avatar "สิ่งปฏิกูล" 1 ใบ จากที่ สอดแนม นำขึ้นมือ การ์ดที่เหลือ ส่งลง นรก ถ้าความสามารถนี้ทำงานในเทิร์นของเรา อัญเชิญ Avatar ที่เลือกลงบน Avatar Zone เราแทน`,
@@ -33,7 +33,7 @@ export const CARDS_BT10: Card[] = [
     name: "สิ่งปฏิกูลสีเงิน",
     type: "Avatar",
     soi: 3,
-    print: "BT010-018",
+    print: "BT10-018",
     rare: "C",
     mainEffect:
       `คำสั่งเสีย : เลือก Avatar 1 ใบ บน Avatar Zone ฝ่ายตรงข้าม Avatar ใบที่เลือก POWER -1 ถ้าความสามารถนี้ทำงานในเทิร์นของเรา Avatar ใบที่เลือก POWER -3 แทน`,
@@ -47,7 +47,7 @@ export const CARDS_BT10: Card[] = [
     name: "ราชาสิ่งปฏิกูล",
     type: "Avatar",
     soi: 3,
-    print: "BT010-019",
+    print: "BT10-019",
     rare: "C",
     mainEffect:
       `พอดี จุตี : ถ้า นรกเรา มี การ์ด "สิ่งปฏิกูล" ตั้งแต่ 5 ใบขึ้นไป เลือก Avatar ของฝ่ายตรงข้าม 1 ใบ เปลี่ยน Symbol ของ Avatar ใบนั้นเป็น {symbol สัตว์มหัศจรรย์} และเปลี่ยนชื่อของ Avatar ใบนั้นเป็น "สิ่งปฏิกูล" และมี POWER 1
