@@ -1156,4 +1156,15 @@ export const CARDS_CC02: Card[] = [
     cost: 1,
     symbol: "ฤษี",
   },
+  {
+    name: "ชายจากอนาคต",
+    type: "Magic",
+    soi: 1,
+    print: "CC02-061",
+    rare: "PR",
+    mainEffect: "เมื่อมีการใช้ Magic Card : ยกเลิกการใช้ Magic Card ใบนั้น",
+    subtype: "Normal",
+    cost: 0,
+    symbol: "จอมเวทย์",
+  },
 ];
