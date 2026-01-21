@@ -87,4 +87,16 @@ export const CARDS_BT10: Card[] = [
     symbol: 'แมลง',
     color: 'เขียว',
   },
+  {
+    name: "ทะลวงส้วม",
+    type: "Magic",
+    subtype: "Normal",
+    cost: 1,
+    print: "BT10-062",
+    soi: 3,
+    symbol: "จอมเวทย์",
+    mainEffect:
+      `เซ่นไหว้ Avatar "สิ่งปฏิกูล" 1 ใบ : จั่วการ์ด 3 ใบ จากนั้นทิ้งการ์ดบนมือ 1 ใบ`,
+    rare: "C",
+  }
 ]
