@@ -1132,6 +1132,7 @@ export const CARDS_CC01: Card[] = [
     subtype: "Normal",
     cost: 0,
     symbol: "เทพ",
+    ex: "Only #1",
   },
   {
     name: "เมตตาระยะยาว",
@@ -1143,6 +1144,7 @@ export const CARDS_CC01: Card[] = [
     subtype: "Normal",
     cost: 0,
     symbol: "เทพ",
+    ex: "Only #1",
   },
   {
     name: "ริกกี้ นักปลอมแปลง",

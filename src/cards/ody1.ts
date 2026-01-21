@@ -865,6 +865,7 @@ export const CARDS_ODY1: Card[] = [
     subtype: "Normal",
     cost: 0,
     symbol: "เทพ",
+    ex: "Only #1",
   },
   {
     name: "ความเจริญ",
