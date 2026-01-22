@@ -635,6 +635,20 @@ export const CARDS_BT09: Card[] = [
     symbol: "จอมเวทย์",
   },
   {
+    name: "ไต้ฝุ่น",
+    type: "Magic",
+    subtype: "Normal",
+    symbol: "จอมเวทย์",
+    cost: 2,
+    soi: 3,
+    rare: "SR",
+    print: "BT09-057",
+    mainEffect: `เลือกปฏิบัติ
+    1) ทำลาย การ์ด 1 ใบ ที่อยู่บน Magic Zone ของผู้เล่นฝ่ายตรงข้าม
+    2) ทำลาย การ์ด 1 ใบ บน Land Magic Zone
+    สามารถใช้การ์ดใบนี้ในเทิร์นฝ่ายตรงข้าม หรือใน Battle Phase เราได้โดยถือว่าเป็นการใช้ {react}`
+  },
+  {
     name: "Skill : Hypersense",
     type: "Magic",
     soi: 3,
