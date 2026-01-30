@@ -83,7 +83,7 @@ export const CARDS_PRE0: Card[] = [
     cost: 2,
     gem: 2,
     power: 2,
-    symbol: "เอเลี่ยน",
+    symbol: "นรก",
     color: "แดง",
   },
   {
