@@ -235,7 +235,7 @@ export const CARDS_BT05: Card[] = [
     power: 3,
     symbol: "คน",
     color: "แดง",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "ผู้เจริญ นาย",
@@ -601,7 +601,7 @@ export const CARDS_BT05: Card[] = [
     power: 4,
     symbol: "สัตว์",
     color: "เขียว",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "ลุงไนท์ ราชาวานร",
@@ -616,7 +616,7 @@ export const CARDS_BT05: Card[] = [
     power: 4,
     symbol: "สัตว์",
     color: "เขียว",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "วานรช่องแชท",
@@ -630,7 +630,7 @@ export const CARDS_BT05: Card[] = [
     power: 2,
     symbol: "สัตว์",
     color: "เขียว",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "คุณเชิดชัย Super Air",

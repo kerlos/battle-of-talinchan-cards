@@ -30,7 +30,7 @@ export const CARDS_BT04: Card[] = [
     color: "แดง",
   },
   {
-    name: "ครููสงบ กล้ามโต",
+    name: "ครูสงบ กล้ามโต",
     type: "Avatar",
     soi: 1,
     print: "BT04-002",
@@ -535,7 +535,7 @@ export const CARDS_BT04: Card[] = [
     cost: 5,
     gem: 2,
     power: 3,
-    symbol: "คน",
+    symbol: "ต้นไม้",
     color: "เขียว",
   },
   {
@@ -870,7 +870,7 @@ export const CARDS_BT04: Card[] = [
     symbol: "ทหาร",
   },
   {
-    name: "อาวุธนักรบผู้กล้า \" ไบโพล่า ชิลด์ \"",
+    name: "อาวุธหุ่นนักรบผู้กล้า \" ไบโพล่า ชิลด์ \"",
     type: "Magic",
     soi: 1,
     print: "BT04-053",

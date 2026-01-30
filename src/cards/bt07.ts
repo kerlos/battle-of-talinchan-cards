@@ -95,7 +95,7 @@ export const CARDS_BT07: Card[] = [
     power: 0,
     symbol: "คน",
     color: "แดง",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "ฤๅษีพระเจ้าตา",

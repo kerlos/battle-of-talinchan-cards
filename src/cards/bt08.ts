@@ -392,9 +392,9 @@ export const CARDS_BT08: Card[] = [
     rare: "C",
     mainEffect:
       "ถ้าในนรกเรามี \"ทหารหิมะ\" 10 ใบ ขึ้นไป Cost บนมือของการ์ดใบนี้ -2\nต่อเนื่อง ผลจากความสามารถของ Avatar ฝ่ายตรงข้าม ที่ลด POWER และส่งผลต่อ Avatar \"หิมะ\" บน Avatar Zone ฝ่ายเรา จะถูกเปลี่ยนเป็น เพิ่ม POWER แทน",
-    cost: 0,
+    cost: 4,
     gem: 2,
-    power: 0,
+    power: 4,
     symbol: "ต่างชาติ",
     color: "ฟ้า",
   },

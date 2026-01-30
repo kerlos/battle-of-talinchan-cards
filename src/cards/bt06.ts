@@ -82,7 +82,7 @@ export const CARDS_BT06: Card[] = [
     power: 2,
     symbol: "คน",
     color: "แดง",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "รีวิวแมน",
@@ -96,7 +96,7 @@ export const CARDS_BT06: Card[] = [
     power: 2,
     symbol: "คน",
     color: "แดง",
-    ex: "#โดนใจ",
+    ex: "โดนใจ",
   },
   {
     name: "อาเธอร์ ราชาแห่งอัศวินโต๊ะกลม",

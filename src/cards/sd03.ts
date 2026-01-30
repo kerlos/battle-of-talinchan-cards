@@ -268,7 +268,7 @@ export const CARDS_SD03: Card[] = [
     dropRate: "2 / กล่อง",
   },
   {
-    name: "หอกแหลมแทง ทุกวันทุกวัน",
+    name: "หอกแหลมแทงทุกวัน",
     type: "Magic",
     soi: 1,
     print: "SD03-018",
