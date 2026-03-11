@@ -584,7 +584,7 @@ export const CARDS_BT03: Card[] = [
     print: "BT03-033",
     rare: "C",
     mainEffect: "คำสั่งเสีย (เมื่อAvatarใบนี้ถูกทำลาย) เลือก Avatar {symbol แมลง} Cost ไม่เกิน 4 และไม่ได้ชื่อ แมลงปอ บรรพบุรุษ จากนรกของฝ่ายเรา : อัญเชิญแบบ จุติ บน Avatar Zone ฝ่ายเรา",
-    cost: 0,
+    cost: 4,
     gem: 1,
     power: 1,
     symbol: "แมลง",
