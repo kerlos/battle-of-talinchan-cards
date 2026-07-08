@@ -367,6 +367,7 @@ export const CARDS_BT06: Card[] = [
     power: 6,
     symbol: "คน",
     color: "ม่วง",
+    ex: "Only #1"
   },
   {
     name: "แบงค์ผู้พิชิต",
@@ -381,6 +382,7 @@ export const CARDS_BT06: Card[] = [
     power: 6,
     symbol: "คน",
     color: "ม่วง",
+    ex: "Only #1"
   },
   {
     name: "แบงค์ผู้พิชิต",
@@ -395,6 +397,7 @@ export const CARDS_BT06: Card[] = [
     power: 6,
     symbol: "คน",
     color: "ม่วง",
+    ex: "Only #1"
   },
   {
     name: "แบงค์ผู้พิชิต",
@@ -409,6 +412,7 @@ export const CARDS_BT06: Card[] = [
     power: 6,
     symbol: "คน",
     color: "ม่วง",
+    ex: "Only #1"
   },
   {
     name: "อู๊ด คุณแม่",

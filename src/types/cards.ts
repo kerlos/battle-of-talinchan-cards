@@ -36,6 +36,7 @@ export type Symbol =
   | 'กะปอม'
   | 'สัตว์มหัศจรรย์'
   | 'ทหาร'
+  | 'มังกร'
   | 'ไฟเบอร์';
 
 export interface BaseCard {
@@ -57,6 +58,7 @@ export interface AvatarCard extends BaseCard {
   symbol: Symbol;
   color?: string; // Card colors: แดง (Red), ฟ้า (Blue), เขียว (Green), ม่วง (gray), etc.
   mainEffect: string;
+  gemColor?: string;
 }
 
 export interface MagicCard extends BaseCard {
@@ -66,6 +68,7 @@ export interface MagicCard extends BaseCard {
   symbol: Symbol;
   color?: string;
   mainEffect: string;
+  gemColor?: string;
 }
 
 export interface LifeCard extends BaseCard {
@@ -82,6 +85,7 @@ export interface ConstructCard extends BaseCard {
   symbol: Symbol;
   color?: string;
   mainEffect: string;
+  gemColor?: string;
 }
 
 export type Card = AvatarCard | MagicCard | LifeCard | ConstructCard;

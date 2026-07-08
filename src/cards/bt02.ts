@@ -933,8 +933,7 @@ export const CARDS_BT02: Card[] = [
     mainEffect: "เทิร์นละครั้ง สั่งใช้ ทิ้ง Avatar {Symbol นรก} 1 ใบจากบนมือ : อัญเชิญ Avatar \"นายนิรยบาล\" ค่า Cost ไม่เกิน 4 จาก นรกฝ่ายเรา 1 ใบ ลงบน Avatar Zone ฝ่ายเรา",
     subtype: "Land",
     cost: 1,
-    symbol: "นรก",
-    ex: "Only #1",
+    symbol: "นรก"
   },
   {
     name: "เทศกาลแมลงปอบุก",

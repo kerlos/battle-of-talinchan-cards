@@ -388,12 +388,13 @@ export const CARDS_BT09: Card[] = [
     print: "BT09-019",
     rare: "R",
     mainEffect:
-      "จุติ : อัญเชิญ Avatar {symbol สัตว์} 1 ใบ จาก Deck เรา อัตโนมัติ เมื่อ Avatar  ใบนี้ โจมตี : POWER +1 ตามจำนวน การ์ด {symbol สัตว์} ใบอื่น บนสนามเรา จนจบเทิร์น",
+      "จุติ : อัญเชิญ Avatar {symbol สัตว์} กี่ใบก็ได้ แต่ Cost ของทุกใบรวมกันไม่เกิน 5 จาก Deck เรา ลงบน Avatar Zone ฝ่ายเรา จากนั้นสับ Deck\nอัตโนมัติ เมื่อ Avatar ใบนี้ โจมตี : POWER +1 ตามจำนวน การ์ด {symbol สัตว์} ใบอื่น บนสนามเรา จนจบเทิร์น",
     cost: 4,
     gem: 2,
     power: 4,
     symbol: "สัตว์",
     color: "ฟ้า",
+    ex: "Only #1"
   },
   {
     name: "กัล มนุษย์ดาว R18",
@@ -535,7 +536,7 @@ export const CARDS_BT09: Card[] = [
     soi: 3,
     print: "BT09-027",
     rare: "C",
-    mainEffect: "พอดี จุติ : สอดแนม 1 ใบ ถ้าการ์ดที่สอดแนมเป็น Avatar Symbol เทพ อัญเชิญ จุติ Avatar ใบนั้น ลงบน Avatar Zone ฝ่ายเรา ถ้าไม่ใช่ ให้ทิ้งการ์ดใบนั้นลงนรก",
+    mainEffect: "พอดี จุติ : สอดแนม 1 ใบ ถ้าการ์ดที่สอดแนมเป็น Avatar {Symbol เทพ} อัญเชิญ จุติ Avatar ใบนั้น ลงบน Avatar Zone ฝ่ายเรา ถ้าไม่ใช่ ให้ทิ้งการ์ดใบนั้นลงนรก",
     cost: 5,
     gem: 2,
     power: 2,
@@ -932,7 +933,7 @@ export const CARDS_BT09: Card[] = [
     subtype: "Normal",
     cost: 0,
     symbol: "ผี",
-    ex: "Only#1",
+    ex: "Only #1",
   },
   {
     name: "ไม้กวาดปีกปักษา",
@@ -944,7 +945,7 @@ export const CARDS_BT09: Card[] = [
     subtype: "Normal",
     cost: 3,
     symbol: "เทพ",
-    ex: "Only#1",
+    ex: "Only #1",
   },
   {
     name: "ไม้กวาดปีกปักษา",
@@ -956,7 +957,7 @@ export const CARDS_BT09: Card[] = [
     subtype: "Normal",
     cost: 3,
     symbol: "เทพ",
-    ex: "Only#1",
+    ex: "Only #1",
   },
   {
     name: "ผจญภัยด้วยกัน",
@@ -1002,7 +1003,7 @@ export const CARDS_BT09: Card[] = [
     subtype: "Normal",
     cost: 0,
     symbol: "จอมเวทย์",
-    ex: "Only#1",
+    ex: "Only #1",
   },
   {
     name: "Skill : Full Drive",
